@@ -1,3 +1,13 @@
+// const getTotalIsles = function (grid) {
+
+  
+
+//   // write your code here
+
+// };
+
+// module.exports = getTotalIsles;
+
 function numIslands(grid) {
   if (!grid || grid.length === 0) return 0;
 
