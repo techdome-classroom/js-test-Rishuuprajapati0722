@@ -58,4 +58,4 @@ const map2 = [
 console.log(numIslands(map1));  
 console.log(numIslands(map2));  
 
-}
+
