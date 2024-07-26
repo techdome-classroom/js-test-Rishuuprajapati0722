@@ -6,7 +6,7 @@
   
 //   module.exports = decodeTheRing;
 
-function isMatch(message, pattern) {
+function decodeTheRing(message, pattern) {
   const m = message.length;
   const p = pattern.length;
   
