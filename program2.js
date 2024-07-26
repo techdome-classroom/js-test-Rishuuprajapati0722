@@ -1,6 +1,4 @@
 
-
-
 function decodeMessage(message, decoderKey) {
     let messageIndex = 0;
     let decoderKeyIndex = 0;
