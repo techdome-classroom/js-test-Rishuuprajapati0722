@@ -1,24 +1,20 @@
+Here is the corrected JavaScript program:
+
+
 const decodeTheRing = function (s, p) {
-
-    // write your code here
-
- 
-
-
-function decodeMessage(message, decoderKey) {
     let messageIndex = 0;
     let decoderKeyIndex = 0;
 
-    while (messageIndex < message.length && decoderKeyIndex < decoderKey.length) {
-        if (decoderKey[decoderKeyIndex] === '*') {
+    while (messageIndex < s.length && decoderKeyIndex < p.length) {
+        if (p[decoderKeyIndex] === '*') {
             decoderKeyIndex++;
-            while (messageIndex < message.length && (decoderKeyIndex === decoderKey.length || message[messageIndex] !== decoderKey[decoderKeyIndex])) {
+            while (messageIndex < s.length && (decoderKeyIndex === p.length || s[messageIndex] !== p[decoderKeyIndex])) {
                 messageIndex++;
             }
-        } else if (decoderKey[decoderKeyIndex] === '?') {
+        } else if (p[decoderKeyIndex] === '?') {
             messageIndex++;
             decoderKeyIndex++;
-        } else if (message[messageIndex] === decoderKey[decoderKeyIndex]) {
+        } else if (s[messageIndex] === p[decoderKeyIndex]) {
             messageIndex++;
             decoderKeyIndex++;
         } else {
@@ -26,19 +22,10 @@ function decodeMessage(message, decoderKey) {
         }
     }
 
-    return messageIndex === message.length && decoderKeyIndex === decoderKey.length;
-}
+    return messageIndex === s.length && decoderKeyIndex === p.length;
+};
 
-// Test cases
-console.log(decodeMessage("aa", "a"));  // false
-console.log(decodeMessage("aa", "*"));  // true
-console.log(decodeMessage("cb", "?a"));  // false
-
-
- 
-
-  };
-  
 module.exports = decodeTheRing;
 
-   
+
+This program defines a function decodeTheRing that takes two parameters, s (the secret message) and p (the decoder key). It uses the same logic as the previous program to compare the message and decoder key, and returns true if the decoder key matches the entire message, and false otherwise. The module.exports line exports the function for use in testing.
