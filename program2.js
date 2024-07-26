@@ -24,7 +24,7 @@ function decodeTheRing(message, decoderKey) {
 }
 
 // Test cases
-console.log(decodeMessage("aa", "a"));  // false
-console.log(decodeMessage("aa", "*"));  // true
-console.log(decodeMessage("cb", "?a"));  // false
+console.log(decodeTheRing("aa", "a"));  // false
+console.log(decodeTheRing("aa", "*"));  // true
+console.log(decodeTheRing("cb", "?a"));  // false
 
