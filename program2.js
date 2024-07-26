@@ -4,5 +4,6 @@
 
 //   };
   
-//   module.exports = decodeTheRing;
+//module.exports = decodeTheRing;
 
+   
