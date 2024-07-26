@@ -26,6 +26,3 @@ const decodeTheRing = function (s, p) {
 };
 
 module.exports = decodeTheRing;
-
-
-This program defines a function decodeTheRing that takes two parameters, s (the secret message) and p (the decoder key). It uses the same logic as the previous program to compare the message and decoder key, and returns true if the decoder key matches the entire message, and false otherwise. The module.exports line exports the function for use in testing.
