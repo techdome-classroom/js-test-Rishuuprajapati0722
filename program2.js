@@ -1,5 +1,6 @@
 
-function decodeTheRing(message, decoderKey) {
+
+function decodeMessage(message, decoderKey) {
     let messageIndex = 0;
     let decoderKeyIndex = 0;
 
@@ -24,7 +25,7 @@ function decodeTheRing(message, decoderKey) {
 }
 
 // Test cases
-console.log(decodeTheRing("aa", "a"));  // false
-console.log(decodeTheRing("aa", "*"));  // true
-console.log(decodeTheRing("cb", "?a"));  // false
+console.log(decodeMessage("aa", "a"));  // false
+console.log(decodeMessage("aa", "*"));  // true
+console.log(decodeMessage("cb", "?a"));  // false
 
