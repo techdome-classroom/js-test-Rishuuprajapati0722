@@ -1,5 +1,5 @@
 
-function decodeMessage(message, decoderKey) {
+function decodeTheRing(message, decoderKey) {
     let messageIndex = 0;
     let decoderKeyIndex = 0;
 
