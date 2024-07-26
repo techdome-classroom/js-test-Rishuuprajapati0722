@@ -2,8 +2,7 @@ const decodeTheRing = function (s, p) {
 
     // write your code here
 
-
-    Here is the JavaScript program that solves the Secret Decoder Ring Challenge:
+ 
 
 
 function decodeMessage(message, decoderKey) {
