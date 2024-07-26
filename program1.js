@@ -1,4 +1,4 @@
-const numIslandsTotalIsles = function (grid) {
+const numIslands = function (grid) {
 
   
 
