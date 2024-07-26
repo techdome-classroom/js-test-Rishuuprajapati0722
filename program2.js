@@ -1,5 +1,3 @@
-Here is the corrected JavaScript program:
-
 
 const decodeTheRing = function (s, p) {
     let messageIndex = 0;
