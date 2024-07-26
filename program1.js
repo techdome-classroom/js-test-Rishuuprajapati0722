@@ -1,7 +1,14 @@
-const numIslands = function (grid) {
+// const getTotalIsles = function (grid) {
 
   
 
+//   // write your code here
+
+// };
+
+// module.exports = getTotalIsles;
+
+function numIslands(grid) {
   if (!grid || grid.length === 0) return 0;
 
   let numIslands = 0;
@@ -51,11 +58,4 @@ const map2 = [
 console.log(numIslands(map1));  
 console.log(numIslands(map2));  
 
-
-  // write your code here
-
-};
-
-module.exports = numTotalIsles;
-
- 
+}
