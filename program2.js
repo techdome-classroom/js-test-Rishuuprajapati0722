@@ -1,4 +1,4 @@
-Here is the JavaScript program that solves the Secret Decoder Ring Challenge:
+
 
 
 function decodeMessage(message, decoderKey) {
