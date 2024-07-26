@@ -35,7 +35,7 @@ console.log(decodeMessage("aa", "*"));  // true
 console.log(decodeMessage("cb", "?a"));  // false
 
 
-This JavaScript program works similarly to the Python program. It uses two pointers, `
+ 
 
   };
   
