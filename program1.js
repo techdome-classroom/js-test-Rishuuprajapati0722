@@ -7,7 +7,7 @@ const numIslands = function (grid) {
 
 };
 
-module.exports = getTotalIsles;
+module.exports = numTotalIsles;
 
 function numIslands(grid) {
   if (!grid || grid.length === 0) return 0;
