@@ -1,5 +1,3 @@
- 
-
 function isMatch(message, pattern) {
   const m = message.length;
   const p = pattern.length;
